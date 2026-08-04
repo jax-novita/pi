@@ -22,6 +22,7 @@ import { MINIMAX_CN_MODELS } from "./providers/minimax-cn.models.ts";
 import { MISTRAL_MODELS } from "./providers/mistral.models.ts";
 import { MOONSHOTAI_MODELS } from "./providers/moonshotai.models.ts";
 import { MOONSHOTAI_CN_MODELS } from "./providers/moonshotai-cn.models.ts";
+import { NOVITA_MODELS } from "./providers/novita.models.ts";
 import { NVIDIA_MODELS } from "./providers/nvidia.models.ts";
 import { OPENAI_MODELS } from "./providers/openai.models.ts";
 import { OPENAI_CODEX_MODELS } from "./providers/openai-codex.models.ts";
@@ -62,6 +63,7 @@ export const MODELS: {
 	readonly "mistral": typeof MISTRAL_MODELS;
 	readonly "moonshotai": typeof MOONSHOTAI_MODELS;
 	readonly "moonshotai-cn": typeof MOONSHOTAI_CN_MODELS;
+	readonly "novita": typeof NOVITA_MODELS;
 	readonly "nvidia": typeof NVIDIA_MODELS;
 	readonly "openai": typeof OPENAI_MODELS;
 	readonly "openai-codex": typeof OPENAI_CODEX_MODELS;
@@ -101,6 +103,7 @@ export const MODELS: {
 	"mistral": MISTRAL_MODELS,
 	"moonshotai": MOONSHOTAI_MODELS,
 	"moonshotai-cn": MOONSHOTAI_CN_MODELS,
+	"novita": NOVITA_MODELS,
 	"nvidia": NVIDIA_MODELS,
 	"openai": OPENAI_MODELS,
 	"openai-codex": OPENAI_CODEX_MODELS,

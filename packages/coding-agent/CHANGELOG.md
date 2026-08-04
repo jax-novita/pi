@@ -73,6 +73,7 @@
 ### Added
 
 - Added built-in Baseten provider support with `BASETEN_API_KEY` authentication and `zai-org/GLM-5.2` as the default model.
+- Added built-in Novita provider support with `NOVITA_API_KEY` authentication and `zai-org/glm-5.1` as the default model.
 - Added `CredentialSynchronizationError` for credential changes that commit successfully but fail to synchronize local model state.
 - Added chainable `pi.registerMarkdownTransformer()` hooks for display-only transformation of user and assistant Markdown.
 - Added an experimental fullscreen UI mode, selectable through `--ui-mode fullscreen` or `/settings` ([#7304](https://github.com/earendil-works/pi/issues/7304)).
